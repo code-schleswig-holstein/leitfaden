@@ -1,0 +1,10 @@
+baseURL: https://opendata.zitsh.de/leitfaden/
+languageCode: de-de
+title: Open-Data-Leitfaden Schleswig-Holstein
+theme: opendata
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>{{ partial "head.html" . }} 
+<body>
+  <div id="layout">
+    <div class="menu-wrapper" id="menuLink">
+      <a href="#menu" class="menu-link">
+        <span></span>
+      </a>
+    </div>
+    
+    <div id="menu">
+    {{ .TableOfContents | replaceRE "</nav>" "</div>" | replaceRE "<nav id=\"TableOfContents\">" "<div class=\"pure-menu\">" | replaceRE "<ul>" "<ul class=\"pure-menu-list\">" | replaceRE "<li><a href=" "<li class=\"pure-menu-item\"><a class=\"bo-menu-item-link\" href="  | safeHTML}}
+    </div>
+    
+    <div id="main">
+      <div class="container-lg px-3 my-5 markdown-body">{{- block "main" . }}{{- end }}</div>
+    </div>
+  </div>
+  <script src="/leitfaden/js/anchor.min.js"></script>
+  <script src="/leitfaden/js/ui.js"></script>
+  <script>anchors.add();</script>
+</body></html>
