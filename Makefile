@@ -58,6 +58,8 @@ web: clean static/images/fluss.png parts/pages_impressum.md | temp
 	@sed 's/\\@/@/' temp/leitfaden-opendata_11.md > temp/leitfaden-opendata_12.md
 	@echo "add title matter ..."
 	@cat parts/pages_title.md temp/leitfaden-opendata_12.md > content/_index.md
+	@echo "running Hugo ..."
+	@hugo
 
 .PHONY: temp/leitfaden-opendata.nolatex.md
 temp/leitfaden-opendata.nolatex.md: | temp
