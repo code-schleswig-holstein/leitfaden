@@ -1,0 +1,11 @@
+---
+documentclass: book
+language: de
+date: @include(date)
+numbersections: true
+fontfamily: arev
+papersize: a4
+pagestyle: plain
+header-includes:
+ - \urlstyle{tt}
+---

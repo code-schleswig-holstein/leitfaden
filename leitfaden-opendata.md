@@ -1,31 +1,27 @@
-# Open-Data-Leitfaden Schleswig-Holstein
-
-![Inhaltsübersicht über den Leitfaden Schleswig-Holstein in Form einer Landkarte von Schleswig-Holstein](images/title.png "Inhaltsübersicht über den Leitfaden Schleswig-Holstein")
-
-## Wozu dient dieser Leitfaden?
+# Wozu dient dieser Leitfaden?
 
 Der vorliegende Leitfaden soll eine Orientierung darüber geben, was unter offenen Daten verstanden wird, wie sie zu finden sind und wie sie am Ende öffentlich zugänglich bereitgestellt werden können. Dazu enthält der Leitfaden detaillierte Schritt für Schritt-Anleitungen und Hintergrundinformationen zur Identifizierung und Bereitstellung offener Daten. Am Ende des Leitfadens finden Sie ein Glossar zu wichtigen Begriffen rund um Open Data.
 
 Um bei der Durchsicht des Leifadens und bei der Umsetzung von Open Data in Ihrem Arbeitsalltag eine Orientierung zu haben, finden Sie als Wegweiser vor allen Kapiteln eine Open-Data-Landkarte, die hier in der Gesamtsicht zu sehen ist. Viel Spaß beim Einstieg in das Thema Open Data!
 
-## Welche Daten als Open Data?
+# Welche Daten als Open Data?
 
 In diesem Kapitel erhalten Sie einen Überblick darüber, welche Daten sich grundsätzlich als Open Data eignen und wie Sie Daten identifizieren und katalogisieren können. Dazu werden Daten zunächst begrifflich von Informationen und Wissen abgegrenzt. Anschließend wird praktisch erläutert, wie Sie bei der Identifizierung von Daten vorgehen und wie ein Datenkatalog erstellt werden kann.
 
-### Was sind Daten? Welche Daten eignen sich als Open Data?
+## Was sind Daten? Welche Daten eignen sich als Open Data?
 
 Bevor man sich auf die Suche nach Daten für eine mögliche Veröffentlichung als Open Data machen kann, sollte natürlich klar sein, wonach gesucht werden muss. Deswegen wird im Folgenden zunächst einmal erläutert, worum es sich bei Daten allgemein handelt und was aus diesen entstehen kann.
 
 Ganz allgemein gesagt sind Daten der Rohstoff, aus dem sich Informationen entwickeln und sich Wissen generieren lässt. Daten werden zu Informationen, wenn sie in einen Kontext gestellt werden. Aus den daraus gewonnenen Informationen leitet sich wiederum Wissen ab. Der Aufbau von Wissen ist dabei ein Prozess, in dem Informationen in Entscheidungen umgewandelt werden. Die folgende Infobox verdeutlicht noch einmal die Zusammenhänge von Daten, Informationen und Wissen.
 
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Beispiel zum Zusammenhang von Daten, Informationen und Wissen**
 
 Stellen Sie sich das Beispiel einer Urlaubsplanung vor: Daten können hier Bewertungen, Bilder oder Preise zu Urlaubsorten sein. Die Sammlung und Präsentation solcher Daten dient der Informationsbildung. Gesammelte Informationen verdichten sich zu Wissen über Urlaubsorte und können durch einen Vergleich eine Entscheidung für oder gegen einen Urlaubsort herbeiführen.
 
-</div>
+@include(box_suffix)
 
 Und was bedeutet dies nun praktisch für die alltägliche Arbeit?
 
@@ -44,41 +40,41 @@ Um ein erstes Verständnis darüber zu erlangen, was für Daten dies konkret sei
 | Open-Data-Portal Rheinland-Pfalz   | https://daten.rlp.de |
 | Berliner Open-Data-Portal  | https://daten.berlin.de   |
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Musterdatenkatalog für Kommunen**
 
 Der Musterdatenkatalog gibt Kommunen einen Anhaltspunkt, welche Daten sie als Open Data veröffentlichen könnten. Der Katalog verschafft eine gute Übersicht über Open Data und umfasst alle Kommunen in Deutschland, deren offene Daten über das Datenportal GovData.de auffindbar sind. Mit dem Katalog kann schnell in Erfahrung gebracht werden, welche Daten von anderen Kommunen als Open Data veröffentlicht werden. Auf diese Weise kann ein Musterdatenkatalog Initialzündung für die Öffnung von kommunalen Daten sein.
-</div>
+@include(box_suffix)
 
-### Wie können Daten identifiziert werden?
+## Wie können Daten identifiziert werden?
 
 Zur Identifizierung von Datensätzen zur Veröffentlichung als Open Data kommen grundsätzlich drei unterschiedliche Formen eines „Datenscreenings“1 (Datenrecherche) in Frage, die im Folgenden erläutert werden.
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Hinweis zur Datenidentifizierung und -katalogisierung:**
 
 Es besteht kein zwingendes Erfordernis, dass Sie die in diesem und dem folgenden Kapitel erläuterten, formalen Prozesse zur Identifizierung und Katalogisierung von Datensätzen vollumfänglich befolgen. Die Identifizierung von Datensätzen kann zunächst auch niederschwellig in kleinen Schritten erfolgen. So können Sie zunächst beispielsweise auch nur einige wenige, Ihnen gut bekannte oder stark nachgefragte Datensätze erfassen und als Open Data veröffentlichen. Oberstes Ziel sollte die Identifizierung von Datensätzen, unabhängig von der Anzahl und Erfassungsmethode, sein.
-</div>
+@include(box_suffix)
 
-#### Selbst-Screening
+### Selbst-Screening
 
 Bei dieser Form des Screenings geht es darum, in der eigenen Organisationseinheit oder öffentlichen Stelle zu überprüfen, welche Informationen bereits über das Internet veröffentlicht werden. Dies können alle Arten von Dokumenten, wie z. B. Artikel, Berichte oder Statistiken sein. Häufig erfüllen solche Dokumente noch nicht die Open-Data-Anforderungen, bieten aber das Potenzial, zukünftig in neuen Formaten als Open Data veröffentlicht oder um offene Daten ergänzt zu werden. Oftmals lohnt sich die nähere Begutachtung von Dokumenten, die Tabellen und Übersichten enthalten, da die verwendeten Rohdaten, also die Daten, auf denen die Tabellen und Übersichten basieren, möglicherweise als Open Data veröffentlicht werden können.
 
-#### Fremd-Screening
+### Fremd-Screening
 
 Bei einem Fremd-Screening stehen andere öffentliche Stellen im Fokus; denn hier geht es um die Frage: „Welche Datensätze haben andere bereits veröffentlicht?“. Wie im vorherigen Kapitel bereits erläutert wurde, können hier verschiedene Open-Data-Portale oder der Musterdatenkatalog Orientierung bieten. Mithilfe der Orientierung an anderen Institutionen können Sie intern gezielt nach vergleichbaren Datensätzen suchen und diese für eine zukünftige Veröffentlichung erfassen.
 
-#### Stakeholder-Screening
+### Stakeholder-Screening
 
 Vielleicht erhalten Sie in Ihrem Arbeitsalltag immer wieder Anfragen nach Daten oder Informationen von Externen. Oder sie haben sehr gute Kenntnisse über die Informationsinteressen Ihrer Kunden. Bei dieser Form des Datenscreenings geht es genau um diese Bedarfe externer Interessenten (Stakeholder). Um diesen Wissensbedarf zu erfassen, bieten sich insbesondere auch Umfragen oder Veranstaltungen an. Auch hier sollten Informationen zusammengetragen und als Hilfsmittel für die interne Datensuche verwendet werden.
 
-#### Orientierung an thematischen Datenkategorien
+### Orientierung an thematischen Datenkategorien
 
 Unterstützt werden können diese Datenscreenings durch eine Orientierung an den gängigen thematischen Datenkategorien, die sich in den einschlägigen Open-Data-Portalen wiederfinden lassen. Auf Grundlage dieser Kategorien kann verwaltungsintern nach Organisationseinheiten gesucht werden, die möglicherweise über Daten zu einer oder mehrerer dieser Kategorien verfügen. Die Kategorien sind im Einzelnen:
 
-### Erstellung eines Datenkatalogs
+## Erstellung eines Datenkatalogs
 
 Das Ergebnis der Durchführung eines oder mehrerer Datenscreenings sollte optimalerweise, aber nicht zwingend, ein Datenkatalog sein, in dem alle zur Veröffentlichung in Frage kommenden Datensätze erfasst werden. In der einfachsten Form kann dies eine Excel-Tabelle sein, in der lediglich die identifizierten Datensätze gesammelt werden. Je nach technischen Möglichkeiten bietet sich jedoch auch die Nutzung einer MS-Access-Datenbank oder spezieller Katalogsoftware oder weiterer Fachverfahren an.
 Idealerweise wird ein Datenkatalog nicht nur einmalig erstellt, sondern fortlaufend aktualisiert und mit neuen Datensätzen befüllt.
@@ -95,35 +91,35 @@ Folgende Informationen sollte ein Datenkatalog enthalten:
 
 Bei der Erstellung eines solchen Datenkatalogs und der dafür erforderlichen Sammlung von Daten gilt es verschiedene Aspekte zu beachten, die in der nachfolgenden Übersicht dargestellt werden. Diese sind explizit nicht als Ausschlusskriterien zu verstehen, sondern lediglich als grobe Zielwerte.
 
-#### Daten, keine Dokumente
+### Daten, keine Dokumente
 
 Reine Dokumente, z. B. in Form eines PDF-Dokuments, sind keine strukturierten Daten; sie können aber solche Daten enthalten, z. B. in einer Tabelle. Hier gilt es die jeweilige Datenquelle zu identifizieren und zu veröffentlichen.
 
-#### Keine personenbezogenen Daten
+### Keine personenbezogenen Daten
 
 Daten, die unmittelbare Rückschlüsse auf einzelne Personen zulassen, können nicht veröffentlicht werden.
 
-#### Nur bestehende Daten
+### Nur bestehende Daten
 
 Es sollten Daten veröffentlicht werden, die ohnehin bereits vorliegen und nicht extra erhoben werden müssen.
 
-#### Vollständige Datensätze
+### Vollständige Datensätze
 
 Zu veröffentlichende Datensätze sollten so vollständig wie möglich sein, um den Umfang eines Themas auch möglichst umfassend abbilden zu können.
 
-#### Unbearbeitete Datensätze
+### Unbearbeitete Datensätze
 
 Daten sollten mit größtmöglichem Feinheitsgrad gesammelt und veröffentlicht werden.
 
-#### Daten aus Primärquellen
+### Daten aus Primärquellen
 
 Daten sind an ihrem Ursprungsort zu identifizieren und zu sammeln.
 
-#### Zeitliche Nähe
+### Zeitliche Nähe
 
 Grundsätzlich sollten Daten möglichst zeitnah nach Erhebung oder direkt zeitgleich zur Erhebung veröffentlicht werden, um ihre Aktualität zu gewährleisten.
 
-#### Zeitreihen
+### Zeitreihen
 
 In bestimmten Kontexten kann es auch sinnvoll sein, historische Daten für Zeitreihen zu veröffentlichen:
 
@@ -131,11 +127,11 @@ In bestimmten Kontexten kann es auch sinnvoll sein, historische Daten für Zeitr
 2. Um historische Forschung durchführen zu können, sind ältere Datenbestände unverzichtbar. Beispielsweise könnte es von Interesse sein, in welchem Jahrzehnt welche Gebäude als denkmalwürdig angesehen wurden und wie dies begründet wurde.
 3. Für das Training von Künstlicher Intelligenz sind Zeitreihen erforderlich. Nur so ist es z. B. möglich, aufgrund historischer Pegelstände, Wetterdaten und ggf. weiterer Parameter ein Modell zu trainieren, das Überflutungen vorhersagen kann.
 
-## Rechtliche Prüfung
+# Rechtliche Prüfung
 
 In diesem Kapitel erfahren Sie, welche rechtlichen Prüfpflichten es vor der Veröffentlichung von Daten als Open Data zu beachten gilt und insbesondere welche Schutzrechte zu wahren sind. Nach einer kurzen Einführung finden Sie im zweiten Unterkapitel dazu eine Schritt-für-Schritt-Anleitung zur Durchführung der erforderlichen rechtlichen Prüfschritte.
 
-### Darf ich die identifizierten Daten bereitstellen?
+## Darf ich die identifizierten Daten bereitstellen?
 
 Nachdem im vorherigen Kapitel gezeigt wurde, wie geeignete Daten identifiziert werden können, erfolgt in diesem Kapitel eine Erläuterung, welche rechtlichen Aspekte es bei einer Veröffentlichung zu beachten gilt.
 
@@ -143,9 +139,9 @@ Bevor identifizierte Daten als Open Data veröffentlicht werden dürfen, sind ve
 
 Mit „Maßnahmen zur Veröffentlichung sind möglich“ ist hier gemeint, dass die Daten durch eine Bearbeitung so verändert werden können, dass keine Schutzinteressen nach dem IZG-SH mehr einer Veröffentlichung entgegenstehen. Die Bearbeitung kann in Form einer Anonymisierung, statistischen Verfremdung oder Aggregation von Daten erfolgen.
 
-### Prüfpflichten im Detail
+## Prüfpflichten im Detail
 
-#### Schutz entgegenstehender öffentlicher Interessen (§ 9 IZG-SH)
+### Schutz entgegenstehender öffentlicher Interessen (§ 9 IZG-SH)
 
 In einem ersten Schritt ist zu prüfen, ob öffentliche Interessen einer Veröffentlichung von Daten als Open Data entgegenstehen. In Anlehnung an § 9 Abs. 1 Nr. 1-5 IZG-SH dürfen Daten nicht veröffentlicht werden, wenn dadurch
 
@@ -162,16 +158,16 @@ Es hat im Einzelfall eine Abwägung zwischen dem öffentlichen Interesse an der 
 
 Die aufgelisteten Aspekte sind nicht als abschließende Ausschlusskriterien zu verstehen: mitunter besteht die Möglichkeit, Daten durch eine Bearbeitung so zu verändern, dass öffentliche Interessen nicht mehr gefährdet werden. Die Bearbeitung kann in Form einer Anonymisierung, statistischen Verfremdung oder Aggregation von Daten erfolgen. Ist eine Bearbeitung erfolgt, muss dies später im Bereitstellungsprozess bei der Erfassung der Metadaten dokumentiert werden. Nach einer etwaigen Bearbeitung kann die Prüfung vorgesetzt werden.
 
-#### Schutz personenbezogener Daten (§ 10 S. 1 Nr. 1 IZG-SH)
+### Schutz personenbezogener Daten (§ 10 S. 1 Nr. 1 IZG-SH)
 
 In einem zweiten Schritt ist zu überprüfen, ob die für eine Veröffentlichung vorgesehenen Daten einen Personenbezug aufweisen oder dieser hergestellt werden kann.
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Begriffsbestimmung „personenbezogene Daten“**
 
 Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind (Art. 4 Nr. 1 DSGVO).
-</div>
+@include(box_suffix)
 
 Personenbezogene Daten dürfen grundsätzlich nur dann verarbeitet (hierzu zählt auch eine Veröffentlichung) werden, wenn eine Rechtsvorschrift dies erlaubt oder die betroffene Person einer Verarbeitung eingewilligt hat (vgl. Art. 6 DSGVO). Bei der Veröffentlichung von Informationen auf Grundlage der Einwilligung einer betroffenen Person sind zudem die Kriterien an eine gültige Einwilligung (vgl. Art. 7 DSGVO) zu erfüllen. Insbesondere muss in einem Prozess die Möglichkeit der betroffenen Person die gegebene Einwilligung jederzeit für die Zukunft zu widerrufen, umgesetzt werden können.
 
@@ -179,28 +175,28 @@ Soweit eine Information keiner Person zugeordnet ist oder (nicht mehr) zugeordne
 
 Auch hier bietet sich die Bearbeitung von Daten an, beispielsweise in Form des Entfernens einer Spalte mit personenbezogenen Daten aus einer Tabelle, um eine Anonymisierung zu erreichen und die Daten damit veröffentlichen zu können. Nehmen Sie bei weiteren Fragen bitte Kontakt zu Ihrer*em Datenschutzbeauftragten auf, um im Detail zu klären, welche (technischen) Möglichkeiten der Anonymisierung in Ihrer Behörde oder Organisationseinheit bestehen.
 
-#### Schutz geistigen Eigentums und von Urheberrechten Dritter (§ 10 S. 1 Nr. 2 u. 3. IZG-SH)
+### Schutz geistigen Eigentums und von Urheberrechten Dritter (§ 10 S. 1 Nr. 2 u. 3. IZG-SH)
 
 Schließlich ist in einem dritten Schritt die Wahrung des Schutzes geistigen Eigentums sowie der Schutz von Urheberrechten Dritter zu prüfen. In Anlehnung an § 10 S. 1 Nr. 2 und 3 IZG-SH dürfen Daten nicht veröffentlicht werden, wenn ihre Veröffentlichung
 
  - Rechte am geistigen Eigentum, insbesondere Urheberrechte, verletzen würden,
  - Betriebs- oder Geschäftsgeheimnisse zugänglich gemacht würden oder die Informationen dem Steuer- oder Statistikgeheimnis unterliegen […].
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Hinweis: Lizenzen**
 
 Unter den Bereich der rechtlichen Prüfung fällt ebenfalls das Thema der Lizenzen, unter denen ein Datensatz genutzt werden darf. Welche Lizenzen es gibt und welche im Zusammenhang von Open Data genutzt verwendet werden sollten, wird in Kapitel 5 näher erläutert.
-</div>
+@include(box_suffix)
 
-## Wie sollten Daten bereitgestellt werden?
+# Wie sollten Daten bereitgestellt werden?
 
 In diesem Kapitel erfolgt eine Erläuterung, in welcher Form Daten nach einer rechtlichen Prüfung bereitgestellt werden sollten.
 
 Das übergeordnete Ziel bei der Bereitstellung von offenen Daten sollte die größtmögliche und gleichzeitig auch einfachste Möglichkeit der Weiterverwendung der Daten sein. Dies gilt sowohl für Menschen als auch Maschinen. Um die Weiterverwendung optimal zu gewährleisten, ist es erforderlich, dass Daten maschinenlesbar und in offenen Formaten bereitgestellt werden. Dieses Kapitel soll Ihnen einen ersten Überblick über diese beiden Aspekte geben und ein grundlegendes Verständnis vermitteln.
 
 Am Ende dieses Kapitels erfolgt darüber hinaus eine Erklärung, welche Möglichkeiten der separierten oder gesammelten Veröffentlichung von Daten im Open-Data-Portal Schleswig-Holstein bestehen.
-### Maschinenlesbarkeit
+## Maschinenlesbarkeit
 
 Die Maschinenlesbarkeit eines Datensatzes sagt aus, ob dieser von einer Maschine  gelesen bzw. interpretiert und weiterverarbeitet werden kann. Durch die Maschinenlesbarkeit wird die einfache Einbindung von Daten in Softwareanwendungen ermöglicht und damit eine größtmögliche Nutzbarkeit der Daten erzielt. So können offene, maschinenlesbare Daten beispielsweise für Applikationen wie die Wheelmap genutzt und damit für eine Vielzahl von Personen zugänglich gemacht werden.
 
@@ -214,12 +210,12 @@ Beispiele für maschinenlesbare Dateiformate2:
 
 Aus älteren Fachanwendungen können moderne Formate wie XML, RDF oder JSON teilweise nicht exportiert werden, weshalb sich das Format CSV als anzustrebender Mindeststandard für offene Daten etabliert hat.
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Erläuterung: CSV**
 
 Das Format CSV steht im englischen Original für „Comma Separated Values“. Hierunter werden tabellarische Daten verstanden, die in einem Textformat gespeichert und über einen Zeichentrenner (meistens Komma oder Semikolon) getrennt hintereinandergeschrieben werden.
-</div>
+@include(box_suffix)
 
 Tabellenkalkulationsprogramme wie Microsoft Excel oder LibreOffice Calc können Formate wie CSV abspeichern.1 Die nachfolgende Abbildung (geöffnet in einem Text-Editor; Datensatz aus dem Open-Data-Portal Schleswig-Holstein) visualisiert den Aufbau einer CSV-Datei. Die aufgelisteten Werte werden durch Kommata getrennt; die oberste Zeile enthält die jeweiligen Spaltenüberschriften.
 
@@ -234,16 +230,16 @@ Tabellenkalkulationsprogramme wie Microsoft Excel oder LibreOffice Calc können 
 ```
 
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Hinweis: Visuelle Optimierung von Datensätzen**
 
 Häufig werden tabellarische Daten für menschliche Betrachterinnen oder Betrachter visuell durch zusätzliche Überschriften oder Leerzeichen optimiert, was jedoch zu Schwierigkeiten und Fehlern bei der automatisierten Weiterverwendung durch Maschinen führen kann. Hier stehen also die Interpretierung von Daten durch Menschen und Maschinen im Konflikt zueinander. Im Sinne des Gebots der Maschinenlesbarkeit und der so gegebenen Auswertungsmöglichkeit, sollte jedoch dringend von einer Optimierung für menschliche Betrachterinnen und Betrachter abgesehen werden.
-</div>
+@include(box_suffix)
 
 In dem [NQDM – Leitfaden für qualitativ hochwertige Daten und Metadaten](http://publica.fraunhofer.de/eprints/urn_nbn_de_0011-n-5656822.pdf) finden Sie ergänzend zu diesem Kapitel eine ausführliche Erläuterung des CSV-Formats sowie Empfehlungen zum Umgang damit. Der Leitfaden enthält auch weitere Erläuterungen und Empfehlungen zu einigen der in der Tabelle oben aufgeführten Dateiformate.
 
-### Offene Formate
+## Offene Formate
 
 Um sicherzustellen, dass jeder Person der Zugriff auf die offen bereitgestellten Daten möglich ist, sollten bei der Bereitstellung stets offene Formate verwendet werden.
 
@@ -259,14 +255,14 @@ Die Veröffentlichung von Daten in proprietären Formaten sollte die Ausnahme da
 
 Oftmals liegen Daten in verschiedenen Formaten vor; um einer möglichst großen Zielgruppe von Nutzer*innen mit unterschiedlicher technischer Ausstattung die Nutzung von Daten zu ermöglichen, sollten die Daten auch in verschiedenen Formaten gleichzeitig bereitgestellt werden. Dabei ist die inhaltliche Übereinstimmung der Daten zu wahren.
 
-### Datenqualität: Erläuterung 5-Sterne-Modell
+## Datenqualität: Erläuterung 5-Sterne-Modell
 
-Zur Beurteilung der Qualität von Open Data kann das 5-Sterne-Modell für offene Daten1 herangezogen werden, das nachfolgend erläutert wird. Dieses Modell wird auch in dem Open-Data-Portal Schleswig-Holstein zur Bewertung der Qualität der bereitgestellten Daten verwendet.
+Zur Beurteilung der Qualität von Open Data kann das 5-Sterne-Modell für offene Daten [@link(5starinfo)] herangezogen werden, das nachfolgend erläutert wird. Dieses Modell wird auch in dem Open-Data-Portal Schleswig-Holstein zur Bewertung der Qualität der bereitgestellten Daten verwendet.
 
-![Stufen des 5-Sterne-Modells für offene Daten](images/5-star-info.png "5-Sterne-Modell für offene Daten")
+![Stufen des 5-Sterne-Modells für offene Daten\label{fig:5-sterne-modell}](images/5-star-info.png "5-Sterne-Modell für offene Daten")
 
 
-#### ★ Offene Lizenz (OL)
+### ★ Offene Lizenz (OL)
 
 Den ersten Stern erhalten Daten, die unter einer offenen Lizenz (mit der festgelegt wird, unter welchen Bedingungen bzw. mit welchen Einschränkungen ein Datensatz verwendet werden darf) zur Verfügung gestellt werden. Das Dateiformat ist hier noch nicht von Relevanz.
 
@@ -276,7 +272,7 @@ Vorteile:
  - Herausgebende müssen nicht wiederholt erklären, dass bereitgestellte Daten weiterverwendet werden dürfen
 
 
-#### ★★ OL + Maschinenlesbares Format (RE)
+### ★★ OL + Maschinenlesbares Format (RE)
 
 Daten, die in einem wiederverwendbaren (strukturierten) Format vorliegen erhalten einen zweiten Stern. Wiederverwendbarkeit wird durch die Verwendung von Formaten, wie z. B. Microsoft Excel gewährleistet. Beispielsweise sollte anstatt eines eingescannten Bildes eine Tabelle verwendet werden. Die Wiederverwendbarkeit ist als ein Qualitätsmerkmal von Daten zu verstehen, die auch außerhalb ihres originären Kontextes verwendet werden können.
 
@@ -286,7 +282,7 @@ Vorteile:
  - das Dateiformat kann in ein anderes Format exportiert werden
 
 
-#### ★★★ OL + RE + Offenes Format (OF)
+### ★★★ OL + RE + Offenes Format (OF)
 
 Mit einem dritten Stern werden Daten ausgezeichnet, die unter einer offenen Lizenz in einem wiederverwendbaren, nicht proprietären Format bereitgestellt werden. Dies bedeutet, dass Daten ohne proprietäre Software verwendet werden können. Beispiel: CSV-Format anstatt Excel-Format.
 
@@ -295,7 +291,7 @@ Vorteile:
  - es muss keine (kostenpflichtige) proprietäre Software zur Nutzung der Daten verwendet werden
 
 
-#### ★★★★ OL + RE + OF + Eindeutige Identifizierbarkeit (URI)
+### ★★★★ OL + RE + OF + Eindeutige Identifizierbarkeit (URI)
 
 Daten, die zusätzlich zu den vorherigen Kriterien mit einer URI (Uniform Resource Identifier) zur eindeutigen Identifizierung versehen sind, erhalten einen vierten Stern.
 
@@ -306,7 +302,7 @@ Vorteile:
  - Herausgebende können mit der Verwendung von URIs den Zugang zu ihren Daten optimieren
 
 
-#### ★★★★★ OL + RE + OF + URI + Linked Open Data (LD)
+### ★★★★★ OL + RE + OF + URI + Linked Open Data (LD)
 
 Alle fünf Sterne erhalten Daten, wenn sie alle vorherigen Kriterien erfüllen und darüber hinaus mit anderen Daten verknüpft sind (Linked Open Data). Durch diese Verknüpfung werden Daten in einen Kontext gestellt und eine Navigation zwischen verschiedenen Datenpunkten wird möglich.
 
@@ -316,7 +312,7 @@ Vorteile:
  - Herausgebende profitieren von einer verbesserten Auffindbarkeit und Wertsteigerung ihrer Daten
 
 
-### Datensatz oder Datei?
+## Datensatz oder Datei?
 
 Bei der Veröffentlichung von Daten stellt sich oftmals die Frage, ob einzelne zusammenhängende Daten entweder als separate Datensätze oder aber als separate Dateien eines einzelnen Datensatzes veröffentlicht werden sollten. Relevant kann dies beispielsweise bei Zeitreihen (gleichartige Daten, die zu unterschiedlichen Zeitpunkten erhoben wurden oder sich über einen Zeitraum erstrecken) oder bei Daten, die sich auf unterschiedliche räumliche Positionen beziehen, sein. Ein pauschale Antwort, ob Daten als einzelne Datensätze oder aber als ein gesammelter Datensatz veröffentlicht werden sollten, gibt es nicht. Vielmehr sind unterschiedliche Formen der Veröffentlichung denkbar, die im Folgenden anhand eines Beispiels anschaulich gemacht werden sollen.
 
@@ -333,11 +329,11 @@ Für die Erläuterung wird auf das Beispiel der Parkplätze in Scharbeutz zurüc
 Grundsätzlich wären hier alle vier Veröffentlichungsoptionen möglich. Die Tourismus-Agentur Lübecker Bucht hat sich für die vierte Option entschieden. So werden täglich aktualisierte Datensätze (z. B. [Parkplatz Scharbeutz Badeweg](https://opendata.schleswig-holstein.de/collection/parkplatz-scharbeutz-badeweg/aktuell)) für unterschiedliche Parkplätze in Scharbeutz veröffentlicht, aus denen anhand von Messwerten hervorgeht, zu welchem Zeitpunkt wie viele Fahrzeuge auf den Parkplätzen stehen. Die Messwerte werden in Form des „[Beachtickers](https://www.luebecker-bucht.guide/beachticker/map)“ visualisiert, der von Besucherinnen und Besuchern von Scharbeutz genutzt werden kann, um zu planen, wo sie ihre Fahrzeuge parken.
 
 
-## Erläuterung Metadaten
+# Erläuterung Metadaten
 
 In diesem Kapitel erfolgt eine Erläuterung, wie sichergestellt werden kann, dass bereitgestellte Daten für Interessierte auch auffindbar gemacht werden können. Hier sind qualitativ hochwertige Metadaten (Daten, die die eigentlichen Daten beschreiben) von größter Bedeutung. Das Kapitel enthält Handlungsempfehlungen, Hinweise und Beispiele, die als Hilfestellungen und Orientierung für die Veröffentlichungsprozesse in der täglichen Arbeit herangezogen werden können.
 
-### Was sind Metadaten und wofür sind sie wichtig?
+## Was sind Metadaten und wofür sind sie wichtig?
 
 Wie bereits in vorangegangenen Kapiteln erwähnt, handelt es sich bei Metadaten um „Daten über Daten“. Metadaten beschreiben die eigentlichen, inhaltlichen Daten.
 
@@ -362,7 +358,7 @@ In der folgenden Übersicht sehen Sie den Beispieldatensatz „Nachrichtenbroker
 
 Bei der geplanten Veröffentlichung von Daten ist also in organisatorischer Hinsicht nicht nur die Veröffentlichung an sich, sondern auch die Erfassung und Veröffentlichung von Metadaten durchzuführen. Zur Beschreibung von Metadaten wurde für Deutschland durch den IT-Planungsrat der Metadatenstandard „DCAT-AP.de“ verbindlich festgelegt1. Durch die Nutzung von Metadatenstandards und einer einheitlichen Vorgehensweise, wie DCAT-AP.de, sollen Datensätze institutionsübergreifend auffindbar und durchsuchbar gemacht werden. Der Metadatenstandard wird im nachfolgenden Unterkapitel näher erläutert.
 
-### Metadatenstandard in Deutschland: DCAT-AP.de
+## Metadatenstandard in Deutschland: DCAT-AP.de
 
 Das „Data Catalogue Application Profile“ (DCAT-AP) für Datenportale in Europa ist eine Spezifikation, die auf dem Datenkatalog-Vokabular des W3C (World Wide Web Consortium) zur Beschreibung von Datensätzen des öffentlichen Sektors in Europa basiert. DCAT-AP.de ist die deutsche Adaption von DCAT-AP und wird als gemeinsames deutsches Metadatenmodell zum Austausch von offenen Verwaltungsdaten verwendet:
 
@@ -390,18 +386,18 @@ Im Folgenden sehen Sie mehrere Beispiele welche sowohl das RICHTIGE als auch das
 
 ![Beispiel für einen falsch konstruierten Datensatz](images/datensatz-falsch3.svg)
 
-### Metadaten des Datensatzes (Dataset)
+## Metadaten des Datensatzes (Dataset)
 
-#### Titel des Datensatzes
+### Titel des Datensatzes
 
 Der Titel ist eine kurze aussagekräftige Bezeichnung des Datensatzes. Der Titel sollte grundsätzlich Angaben zum Raumbezug sowie zum zeitlichen Bezug enthalten, damit ein Datensatz bei der Auflistung direkt von anderen abgegrenzt werden kann. Beispiel: Tätige Personen im Verarbeitenden Gewerbe in Ostholstein (die Informationen zum zeitlichen Bezug, hier 2008-2020, sind auf der Übersichtsseite der Datensätze ersichtlich).
 
 
-#### Beschreibung
+### Beschreibung
 
 Die Beschreibung fasst die Inhalte eines Datensatzes kurz zusammen. Neben dem Titel ist die Beschreibung elementar für die Auffindbarkeit und Nutzung eines Datensatzes. Nutzende können sich damit einen schnellen Überblick über bereitgestellte Daten verschaffen.
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Empfehlung: Beschreibung eines Datensatzes**
 
@@ -410,7 +406,7 @@ Die Beschreibung sollte der Nutzerin oder dem Nutzer bereits Aufschlüsse darüb
 Versuchen Sie sich bei der Beschreibung eines Datensatzes in die Rolle einer potenziellen Nutzerin oder eines Nutzers zu versetzen. Welche Informationen benötigen diese Personen, wenn sie erstmalig auf einen Datensatz stoßen und zur Nutzung angeregt werden sollen?
 
 Bei der Formulierung sollte darauf geachtet werden, dass Fremdwörter, „Amtsdeutsch“ oder komplexe Formulierungen die Ausnahme darstellen.
-</div>
+@include(box_suffix)
 
 Die Beschreibung sollte u.a. die folgenden Fragen beantworten:
 
@@ -421,22 +417,22 @@ Die Beschreibung sollte u.a. die folgenden Fragen beantworten:
  - Wofür eignet sich der Datensatz **nicht**?
 
 
-#### Kategorien
+### Kategorien
 
 Zur Vereinheitlichung der Kategorisierung von Daten beinhaltet die o.g. DCAT-AP.de-Spezifikation 13 europaweit einheitliche, thematische Kategorien, unter denen Daten bei ihrer Veröffentlichung eingeordnet werden. Damit soll die Auffindbarkeit und Durchsuchbarkeit von Datensätzen erhöht werden. Diese Kategorien werden auch im Open-Data-Portal Schleswig-Holstein verwendet und sind bei einer Veröffentlichung von Daten zu berücksichtigen.
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Empfehlung: Auswahl von Kategorien**
 
 Es kommt durchaus vor, dass Datensätze inhaltlich mehreren Kategorien zugeordnet werden können; dies stellt grundsätzlich auch kein Problem dar, jedoch sollten Sie bei der Auswahl der Kategorien so präzise und sparsam wie möglich vorgehen und nur die nötigsten Kategorien auswählen.
-</div>
+@include(box_suffix)
 
-#### Lizenz
+### Lizenz
 
 Lizenzen geben an, unter welchen Bedingungen bzw. mit welchen Einschränkungen ein Datensatz verwendet werden darf. Für Schleswig-Holstein werden durch das Zentrale IT-Management Schleswig-Holstein die Lizenzen Creative Commons Namensnennung – 4.0 International (CC BY 4.0) sowie in Ausnahmefällen unter besonderen Bedingungen Creative Commons Namensnennung - Nicht kommerziell 4.0 International (CC BY-NC 4.0) empfohlen. Näheres zu dem Thema Lizenzen und wie diese ausgewählt werden und welche rechtlichen Prüfschritte es vor der Lizenzauswahl gibt, erfahren Sie in Kapitel 6 dieses Leitfadens.
 
-#### Herausgeber
+### Herausgeber
 
 Um nachvollziehen zu können, von wem Daten veröffentlicht wurden und an wen sich Datennutzende bei Fragen wenden können, muss der Herausgeber der Daten bei der Veröffentlichung angegeben werden. Datenherausgeber müssen im Open-Data-Portal Schleswig-Holstein nur einmalig erfasst werden und können bei nachfolgenden Veröffentlichungen immer wieder verwendet werden. Von einem neuen Herausgeber werden folgende Informationen benötigt: Name, Logo und kurze Beschreibung
 
@@ -446,7 +442,7 @@ Beispiel:
 
 Mit diesen Informationen legt die Open-Data-Leitstelle eine Seite im Open-Data-Portal Schleswig-Holstein für den Herausgeber an. Zunächst in einem Testsystem, nach Rücksprache und gegebenenfalls einer Freigabe durch den Herausgeber dann auch im Produktivsystem. Auf der Herausgeber-Seite können alle von dieser Stelle veröffentlichten Datensätze gefunden werden.
 
-#### Raumbezug
+### Raumbezug
 
 Zu qualitativ hochwertigen Metadaten gehört auch die Beschreibung, auf welchen geographischen Raum sich ein Datensatz bezieht. Bei Datensätzen der öffentlichen Verwaltung ist dies für gewöhnlich ein verwaltungspolitischer Geo-Bezug (z. B. Gemeinde, Amt oder Kreis). Hierzu gibt es eine Liste von vorgefertigten Einträgen, die über einen URI identifiziert werden.
 
@@ -462,34 +458,34 @@ Im Open-Data-Portal Schleswig-Holstein können Sie die jeweilige Kennung unkompl
 
 ![Screenshot des Drop-Down-Menüs zum Raumbezug im Open-Data-Portal](images/auswahl-raumbezug.png "Drop-Down-Menü im Open-Data-Portal")
 
-#### Veröffentlichungszeitpunkt
+### Veröffentlichungszeitpunkt
 
 Dieses Datum bezeichnet den Zeitpunkt der erstmaligen Veröffentlichung der eigentlichen Daten. Dies bezieht sich nicht auf den Eintrag im Datenregister – wenn die Daten bereits früher auf anderem Wege veröffentlicht wurden, kann das Veröffentlichungsdatum auch früher liegen. Der Veröffentlichungszeitpunkt im Datenregister wird automatisch vermerkt.9
 
 Die Information „Zuletzt bearbeitet“ gibt an, wann die Metadaten eines veröffentlichten Datensatzes das letzte Mal verändert wurden. Dies bezieht sich also nicht auf die eigentlichen Daten.
 
-#### Zeitlicher Bezug
+### Zeitlicher Bezug
 
 Der zeitliche Bezug eines Datensatzes ist ebenfalls ein wichtiges Auswahlkriterium für Nutzende und darüber hinaus wichtig bei der Suche nach Datensätzen. Zumindest das Startdatum (der Zeitpunkt, für den die ältesten Daten in der Datei enthalten sind) muss angegeben sein. Es sollte nach Möglichkeit auch ein Enddatum (der Zeitpunkt, für den die jüngsten Daten in der Datei enthalten sind) angegeben werden. Es gibt Fälle, bei denen (noch) kein Enddatum existiert (z. B. Pläne, die bis auf Widerruf gelten) oder APIs, die aktuelle Daten liefern. Hier ist die Angabe des Startdatums entsprechend ausreichend.
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Erläuterung API**
 
 Eine API (Application Programming Interface) ist ein Satz von Befehlen, Funktionen, Protokollen und Objekten, die Programmierer verwenden können, um eine Software zu erstellen oder mit einem externen System zu interagieren. Eine API – auch Programmierstelle genannt- ermöglicht es demnach Anwendungen miteinander zu kommunizieren.
-</div>
+@include(box_suffix)
 
 In dem folgenden Schaubild wird der Zusammenhang zwischen dem Veröffentlichungszeitpunkt, der Information „Zuletzt bearbeitet“ sowie dem zeitlichen Bezug noch einmal verdeutlicht:
 
 ![Übersicht zeitlicher Bezug von Daten](images/zeitstrahl.svg)
 
-#### Schlagworte
+### Schlagworte
 
 Damit einzelne Datensätze von den Nutzerinnen und Nutzern in der Fülle des Open-Data-Portals Schleswig-Holsteins auch gefunden werden können, wird jeder Datensatz mit Schlagworten versehen. Die Schlagworte dienen dazu, den Inhalt jedes Datensatzes zu beschreiben und schnell erfassbar zu machen. Gleichzeitig ermöglichen Schlagworte es den Nutzenden, einfach unterschiedliche Datensätze zu ähnlichen Themen zu finden.
 
 Zum Beispiel wird der Datensatz zu der Denkmalliste Kreis Plön mit den Schlagworten „Denkmal, Denkmalliste, Kulturdenkmal“ beschrieben, die wiederum mit anderen Datensätzen zu diesem Thema verknüpft sind. So können über das Schlagwort „Denkmal“ eine Vielzahl weiterer Denkmallisten aus Schleswig-Holstein gefunden werden.
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Empfehlung: Verwendung von Schlagworten**
 
@@ -506,27 +502,27 @@ Vermieden werden sollten Schlagworte, die sich wiederholen oder redundant sind. 
  - Zeitangaben wie „2020“, „März 2020“ oder 1. Quartal 2020. Diese Informationen werden bei dem Feld „Zeitlicher Bezug“ bereits erfasst.
  - Schlagworte die lediglich den Titel oder die Beschreibung wiederholen.
 
-</div>
+@include(box_suffix)
 
-#### Metadaten der Datei (Distribution)
+### Metadaten der Datei (Distribution)
 
 Die Dateien, die in Summe einen Datensatz darstellen, werden ebenfalls mit Metadaten versehen. Im Open-Data-Portal Schleswig-Holstein sind dies regelmäßig der Titel der Datei sowie das Dateiformat. Im Folgenden sehen Sie die Metadaten zu der Datei des in Kapitel 4.1 bereits aufgeführten Beispieldatensatzes „Statistik Nachrichtenbroker“.
 
 ![Bildschirmfoto der Metadaten einer Datei im Open-Data-Portal](images/dateien.svg "Beispiel Metadaten einer Datei")
 
-##### Titel der Datei
+#### Titel der Datei
 
 Der Titel beschreibt knapp und möglichst aussagekräftig die eigentliche Datei. Bei dem in Kapitel 4.1 aufgeführten Beispieldatensatz lautet der Titel der CSV-Datei beispielsweise.: „Statistik Q1 2021“.
 
-##### Dateiformate
+#### Dateiformate
 
 Das Feld Dateiformate enthält Informationen darüber, in welchen Formaten Daten bereitgestellt wurden und heruntergeladen werden können. Das Feld Dateiformate ist wichtig für die Filterfunktion des Open-Data-Portal Schleswig-Holstein, da hier eine Filterung nach Dateiformaten vorgenommen werden kann.
 
-## Lizenzen
+# Lizenzen
 
 In diesem Kapitel erfahren Sie, welchen Zweck Lizenzen erfüllen, welche Prüfpflichten vor einer Lizenzauswahl bestehen und schließlich, welche Lizenz (CC BY 4.0) Sie bei einer Veröffentlichung von Daten als Open Data auswählen sollten. Das Kapitel schließt die vorbereitenden Schritte und Rahmenbedingungen der Datenbereitstellung im Open-Data-Portal Schleswig-Holstein ab.
 
-### Was sind Lizenzen?
+## Was sind Lizenzen?
 
 Die Möglichkeit der freien Weiterverwendung von Daten ist eines der Grundprinzipien von Open Data. Es ist wichtig sicherzustellen, dass veröffentlichte Daten auch durch jede Person für verschiedenste Zwecke uneingeschränkt verwendet werden können. Dazu ist es erforderlich, Daten bei ihrer Veröffentlichung mit Lizenzen zu versehen, die genau dies in rechtlicher Hinsicht ermöglichen. Die Auswahl einer geeigneten Lizenz ist hierbei für jeden zu veröffentlichenden Datensatz individuell vorzunehmen.
 
@@ -540,7 +536,7 @@ Die Auswahl und Festlegung einer Lizenz erfolgt auf Ebene eines Datensatzes und 
 
 Welche dieser Lizenzen für eine Veröffentlichung im Open-Data-Portal Schleswig-Holstein empfohlen werden, wird im weiteren Verlauf dieses Kapitels erläutert.
 
-### Prüfpflichten vor der Lizenzauswahl
+## Prüfpflichten vor der Lizenzauswahl
 
 Bevor Sie sich im Bereitstellungsprozess eines Datensatzes mit der Auswahl einer geeigneten Lizenz auseinandersetzen, muss zunächst geprüft werden, ob überhaupt ein Schutzrecht nach dem Gesetz über Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz - UrhG) vorliegt.
 
@@ -556,9 +552,9 @@ Entscheidend für die Einordnung als amtliches Werk ist dessen Erschaffung im Ra
 
 Konnten beide vorherigen Fragen zur Schöpfungshöhe und zum Vorliegen eines amtlichen Werkes verneint werden, ist eine Lizenz auszuwählen. Welche Lizenz konkret auszuwählen ist, wird im nachfolgenden Kapitel erläutert.
 
-### Lizenzauswahl: Creative-Commons-Lizenzen
+## Lizenzauswahl: Creative-Commons-Lizenzen
 
-### Lizenz-Empfehlung für Schleswig-Holstein: CC BY 4.0
+## Lizenz-Empfehlung für Schleswig-Holstein: CC BY 4.0
 
 Für die Bereitstellung von Daten als offene Daten im Open-Data-Portal Schleswig-Holstein wird durch das Zentrale IT-Management Schleswig-Holstein (ZIT) die folgende Creative-Commons-Lizenz offiziell empfohlen:
 
@@ -578,29 +574,29 @@ oder mit einer ganz anderen Schreibweise genannt werden möchte.
 
 Diese Lizenz bietet einerseits die gewünschte Rechtssicherheit für die Nutzerinnen und Nutzer der Daten, anderseits ist ihre Verwendung durch Sie als Datenherausgeberin oder -herausgeber mit wenig zusätzlichem Arbeitsaufwand verbunden, weshalb sie stets verwendet werden sollte.
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Hinweis:**
 
 In der Regel sollte dringend auch eine kommerzielle Nutzung von Daten gestattet werden, da ansonsten deren Verwendung eingeschränkt ist, diese Lizenz ist daher nur in Ausnahmefällen zu verwenden.
-</div>
+@include(box_suffix)
 
-<div class="bo-box">
+@include(box_prefix)
 
 **Hinweis zur Datenlizenz Deutschland Namensnennung 2.0**
 
 Die von vielen öffentlichen Stellen in Deutschland verwendete Datenlizenz Deutschland Namensnennung 2.0 ist problematisch, da sie nicht mit anderen international verwendeten Open-Data-Lizenzen harmonisiert ist und an vielen Stellen offene Fragen lässt. Diese Lizenz sollte daher für eine Bereitstellung von Daten im Open-Data-Portal Schleswig-Holstein nicht verwendet werden.
-</div>
+@include(box_suffix)
 
-## Bereitstellung von Daten im Open-Data-Portal Schleswig-Holstein
+# Bereitstellung von Daten im Open-Data-Portal Schleswig-Holstein
 
 In diesem Kapitel erfahren Sie, wie die Ihnen zur Verfügung stehenden und für eine Veröffentlichung vorgesehen Daten sowie die dazugehörigen Metadaten in das Open-Data-Portal Schleswig-Holstein gelangen können. Neben der technischen Bereitstellung von Daten und Metadaten werden ebenfalls die Möglichkeiten der Änderung von bereits veröffentlichten Daten erläutert. Nach Abschluss dieses Kapitels sollte das benötigte Wissen für eine Datenbereitstellung im Open-Data-Portal Schleswig-Holstein vorliegen.
 
-### Technische Bereitstellung von Daten
+## Technische Bereitstellung von Daten
 
 Sowohl für die zu veröffentlichenden Daten selbst, als auch die dazugehörigen Metadaten gibt es unterschiedliche Wege in das Open-Data-Portal. Diese werden im nachfolgenden Kapitel 6.1.1 dargestellt. Das Kapitel 6.1.2 enthält daran anschließend praktische Beispiele für die unterschiedlichen Wege.
 
-### Wege von Daten und Metadaten in das Portal
+## Wege von Daten und Metadaten in das Portal
 
 Mit Daten sind in der Regel eine oder mehrere Dateien gemeint; es ist jedoch auch möglich, auf Dienste mit offenen Schnittstellen (z. B. Web Feature Service) zu verweisen. Sofern möglich, sollte zu einem Dienst auch immer eine Downloadmöglichkeit der Daten angeboten werden.
 
@@ -622,7 +618,7 @@ Der händische Aufwand pro Datei nimmt mit jeder dieser Möglichkeiten ab, dafü
 Welche Bereitstellungsmethode sich in Ihrem Fall anbieten, hängt von verschiedenen Faktoren ab. Wenden Sie sich bei hier Unterstützungsbedarf bitte an die Open-Data-Leitstelle per E-Mail an das Funktionspostfach opendata@lr.landsh.de.
 
 
-#### Welcher Weg sollte gewählt werden?
+### Welcher Weg sollte gewählt werden?
 
 In Abhängigkeit davon, ob, bzw. wie Ihre Daten auf Ihren Systemen gespeichert sind, fällt die Entscheidung für einen Weg der Daten in das Portal unterschiedlich aus. Die verschiedenen Konstellationen sind:
 
@@ -648,9 +644,9 @@ In Abhängigkeit davon, ob, bzw. wie Ihre Daten auf Ihren Systemen gespeichert s
     - Bei vielen APIs und/oder Änderungen kann eine DCAT-konforme RDF-Datei sinnvoll sein, die vom Open-Data-Portal regelmäßig gelesen wird.
 
 
-### Praktische Beispiele für die Wege in das Open-Data-Portal
+## Praktische Beispiele für die Wege in das Open-Data-Portal
 
-#### Denkmalliste
+### Denkmalliste
 
 Das Landesamt für Denkmalpflege muss regelmäßig die Denkmalliste Schleswig-Holstein veröffentlichen. Die Daten dazu liegen im vom Dataport entwickelten und betriebenen Fachanwendung &ldquo;DISH&rdquo;. Die bisherige Lösung sah so aus, dass etwa einmal pro Quartal von Hand ein Export von 15 großen PDF-Dateien (eine pro Kreis) angestoßen und heruntergeladen wurde. Diese 15 PDF-Dateien mussten anschließend im Landesportal Schleswig-Holstein hochgeladen und verlinkt werden.
 
@@ -658,7 +654,7 @@ Die Anbindung an das Open-Data-Portal ist so gestaltet, dass der PDF-Export und 
 
 Als zusätzlichen Bonus werden nun auch Fotos der Denkmäler veröffentlicht. Auch dabei wurde darauf geachtet, möglichst wenig Arbeitsaufwand zu produzieren. Die Fotos werden in einem Netzlaufwerk abgelegt. Da im Dateinamen die eindeutige Kennung des Denkmals enthalten ist, kann ein automatischer Abgleich mit der Denkmalliste erfolgen und die JSON- und CSV-Dateien entsprechend angereichert werden.
 
-#### Badegewässerqualität
+### Badegewässerqualität
 
 Die Daten zur Badegewässerqualität werden vom Ministerium für Soziales, Gesundheit, Jugend, Familie und Senioren bereitgestellt. Sie bestehen aus fünf Datensätzen: 
 
@@ -670,18 +666,18 @@ Die Daten zur Badegewässerqualität werden vom Ministerium für Soziales, Gesun
 
 Aus der Fachanwendung zur Kontrolle der Badegewässerqualität werden diese Datensätze täglich als fünf CSV-Dateien exportiert und in einem per Internet erreichbaren Verzeichnis abgelegt. Das Open-Data-Portal prüft täglich, ob es Änderungen an den Dateien gegeben hat. Ist dies der Fall, werden die Datensätze im Open-Data-Portal entsprechend angepasst. Da an die CSV-Dateien für die Datensätze 3 bis 5 lediglich neue Werte am Ende hinzugefügt werden, muss hier nur das Änderungsdatum aktualisiert werden. Bei den Datensätze 1 und 2 werden die Datensätze archiviert und in Zeitreihen eingeordnet, so dass man später Entwicklungen (z. B. beim Ausbau der Infrastruktur an Badestellen) nachvollziehen kann.
 
-### Änderungen an veröffentlichten Datensätzen
+## Änderungen an veröffentlichten Datensätzen
 
 Mitunter werden Änderungen an veröffentlichten Datensätzen erforderlich. Dies ist der Fall, wenn Datensätze Fehler enthalten, oder sie einer regelmäßigen Aktualisierung bedürfen. Mit beiden Optionen ist unterschiedlich umzugehen.
 
 
-#### Korrektur von Fehlern in Datensätzen
+### Korrektur von Fehlern in Datensätzen
 
 Sofern Fehler in Datensätzen bestehen, können diese durch eine erneute Bearbeitung im Open-Data-Portal durch Sie als Datenherausgeberin oder -herausgeber behoben werden.
 
 Als Beispiel für eine Korrektur von Fehlern sei der Datensatz Ausfuhr des Landes Schleswig-Holstein 4. Quartal 2017 genannt. Die hier ursprünglich verlinkte Distribution G_III_1_vj174_SH.xlsx wurde gelöscht und durch eine korrigierte Version G_III_1_vj174_SH_korr.xlsx ersetzt. Der Hinweis auf die Korrektur einer Distribution ist (wie hier erfolgt) stets hervorzuheben.
 
-#### Reguläre Aktualisierung der Daten
+### Reguläre Aktualisierung der Daten
 
 Es gibt Datensätze, die einer regelmäßigen Aktualisierung bedürfen, und deshalb wiederkehrend verändert werden. Hierzu gibt es zwei unterschiedliche Formen der Aktualisierung:
 
@@ -711,11 +707,11 @@ Im Folgenden ebenfalls ein Beispiel aus dem Bereich der Badegewässer, bei dem e
 | v_infrastruktur_odata.csv  | Überschreiben
 | v_proben_odata.csv         | Anhängen
 
-## Ende des Open Data Leitfadens für Schleswig-Holstein
+# Ende des Open Data Leitfadens für Schleswig-Holstein
 
 Sie befinden sich nun am Ende des Open Data Leitfadens für Schleswig-Holstein. Mit dem in diesem Leitfaden vermittelten Wissen sollten Sie in der Lage sein, Ihre Daten im Open-Data-portal Schleswig-Holstein bereitzustellen. Bei weitergehenden Fragen zum Thema Open Data können Sie sich an … wenden.
 
-## Glossar
+# Glossar {-}
 
 **API** *API* ist die Abkürzung für &ldquo;Application Programming Interface&rdquo;. Ein API ist eine Schnittstelle, die eine dynamische Bereitstellung von Daten ermöglicht.
 
@@ -771,17 +767,13 @@ Sie befinden sich nun am Ende des Open Data Leitfadens für Schleswig-Holstein. 
 
 **URL** *Uniform Resource Locator* (englisch für „einheitlicher Ressourcenzeiger“). Eine URL ist die Adresse einer Website.
 
-## Quellenverzeichnis
+# Quellenverzeichnis {-}
 
+**[@linktarget(5starinfo)]** 5-Sterne Offene Daten, URL: https://5stardata.info/de/, zuletzt abgerufen 2022-04-19
 
-## Bildverzeichnis
+# Bildverzeichnis {-}
 
  - **Alle nicht einzeln genannten Grafiken und Screenshots:** Land Schleswig-Holstein, veröffentlicht unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de">Creative Commons Namensnennung 4.0 International</a> (CC BY 4.0)
 
 
-## Impressum
 
-**Herausgeber:** Land Schleswig-Holstein<br>
-**Lizenz**: Der Text des Handbuchs ist unter einer <a href="https://creativecommons.org/licenses/by/4.0/deed.de">Creative Commons Namensnennung 4.0 International Lizenz</a> (CC BY 4.0) veröffentlicht.
-Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenommen.
-<a href="#quellenverzeichnis">Quellenverzeichnis</a> und <a href="#bildverzeichnis">Bildverzeichnis</a> mit entsprechenden Urheberrechtsangaben sind im Handbuch enthalten.<br/>

@@ -1,3 +1,9 @@
 *~
 /resources/
 /public/
+/temp/
+/parts/pages_impressum.md
+/parts/latex_impressum.md
+/template/metadata.yml
+/leitfaden-opendata.pdf
+/content/_index.md
