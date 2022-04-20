@@ -19,7 +19,7 @@ pdf: clean temp/date.txt parts/latex_impressum.md | temp
 	@echo "creating pdf ..."
 	@pandoc --listings -H template/listings-setup.tex -V lang=de --template=template/default.latex --variable urlcolor=cyan temp/leitfaden-opendata_06.md template/metadata.yml --pdf-engine=pdflatex --toc --resource-path=static -o temp/ergebnis.pdf
 	@echo "adding title page"
-	@pdfunite titelblatt.pdf temp/ergebnis.pdf leitfaden-opendata.pdf
+	@pdfunite titelblatt.pdf temp/ergebnis.pdf public/leitfaden-opendata.pdf
 
 .PHONY: indesign
 indesign: clean temp/leitfaden-opendata.nolatex.md | temp

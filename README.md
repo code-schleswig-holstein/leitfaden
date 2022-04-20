@@ -24,7 +24,7 @@ cd leitfaden
 make pdf
 ```
 
-The resulting PDF document will be called `leitfaden-opendata.pdf`.
+The resulting PDF document will be placed at `public/leitfaden-opendata.pdf`.
 
 To generate the HTML version:
 
