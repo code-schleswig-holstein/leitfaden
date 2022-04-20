@@ -10,10 +10,20 @@ The following versions exist:
 
 ## Building
 
-You need a few prerequisites to build the _Open-Data-Leitfaden Schleswig-Holstein_. On a Ubuntu 20.04 LTS system the following packages have to be installed:
+You need a few prerequisites to build the _Open-Data-Leitfaden Schleswig-Holstein_. 
+
+On a *Ubuntu 20.04 LTS* system the following packages have to be installed:
 
 ```bash
 sudo apt install make librsvg2-bin poppler-utils pandoc pdflatex hugo
+```
+
+On a *Alpine Linux edge* system the build environment can be prepared this way:
+
+```bash
+apk add ruby texlive make librsvg hugo texmf-dist-fontsextra poppler-utils
+wget https://github.com/jgm/pandoc/releases/download/2.18/pandoc-2.18-linux-amd64.tar.gz
+cp pandoc-2.18/bin/pandoc /usr/local/bin/
 ```
 
 You can create the PDF document:
